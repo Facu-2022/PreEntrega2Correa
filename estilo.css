@@ -49,19 +49,12 @@ a:visited{
    font-style: normal;
    font-weight: 400;
    font-size: 100px;
-   transition: 2s;
+   transition: 0.5s;
 }
 .titulo:hover{
     color: rgb(32, 31, 32);
     font-size: 110px;
-    border-radius:  50%;
-    box-shadow: 10px 10px 30px black;
-    transform: scale(0.7,1.1);
-    background-image: radial-gradient(
-        circle,
-        rgba(249, 242, 242, 0.95) 0%,
-        #d6b7a5
-    );
+    text-shadow: 10px 10px 10px black;
 }
 h2{
     color: rgb(44, 36, 36);
@@ -92,11 +85,11 @@ p{
     margin: 10px;
     border-radius: 158px;
     box-shadow: 4px 4px 30px black;
-    transition: 2s;
+    transition: 1.5s;
 }
 .imagen_1:hover{
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 4px 4px 30px black;
 }
@@ -112,18 +105,16 @@ footer ul{
      font-size: 20px;
      justify-content: space-around;
      align-items:center ;
-    
 }
 footer ul li{
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
-    text-shadow: 2px 2px 10px black;
-   
+    text-shadow: 2px 2px 10px black; 
 }
 fieldset{
     font-size: 25px;
-    height: 500px;
+    height: auto;
     width: auto;
     border-radius: 50px;
     background-color: #8c8989;
@@ -140,12 +131,29 @@ legend{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+}
+i{ 
+   padding: 30px;
+   transition: 2s;
+   font-size: 70px;  
+}
+i:hover{
+    color: #db26cc;
+    animation: pesaa 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pesaa {
+    20%{
+        transform: rotate(360deg);
+    }
+}
+span{
+      padding: 10px;
 }
 @media only screen and (max-width: 756px)  {
     .plantilla{
-        margin: 100px 0 100px 0;
-        
+        margin: 100px 0 100px 0;   
     }
     .titulo{
         text-align: center;
@@ -166,11 +174,17 @@ legend{
         width: 104px;
         height: 104px;
         border-radius: 10px;
-        box-shadow: 4px 4px 30px black;
-    }
+        box-shadow: 4px 4px 30px black;}
     p{
         font-size: 10px;
         text-align: center;
+    }
+    h2{
+        font-size: 50px;
+    }
+    i{
+        padding: 5px;
+        font-size: 50px;
     }
     h3{
         font-size: 28px;
@@ -178,17 +192,28 @@ legend{
     }
     footer ul{
         height: 55px;
-        font-size: 15px;
         justify-content: start;
     }
     footer ul li{
        display: inline-block;
        margin: 5px;
+       font-size: 15px
     }
     .flex-cardigans{
         justify-content: center;
     }
+    fieldset{
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #8c8989;
+    }
+    legend{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    
 }    
-.iconn{
-    border-radius: 50%;
-}
+
