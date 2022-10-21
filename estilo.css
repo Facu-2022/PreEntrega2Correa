@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+     background-image: linear-gradient(
+        360deg,
+        rgba(249, 242, 242, 0.95) 0%,
+        #d6b7a5
+    );
+    background-attachment: fixed;
+    
+}
+.navbar{
+    background-color: #d6b7a5;
+    border-radius: 5%;
+    box-shadow: 4px 4px 30px black;
+    justify-content: end;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px black;
+}
+.navbar-expand-lg .navbar-collapse {
+    font-size: 23px;
+    justify-content: end;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px black;
+}
+.plantilla{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    margin: 100px;
+    text-align: center;
+}
+a:link{
+    color: #070606;
+    text-decoration: none;
+}
+a:visited{
+    color: #323232;
+    text-decoration: none;
+}
+.titulo{
+   text-align: center;
+   color: rgb(44, 36, 36);
+   font-family: 'Italiana', serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 100px;
+   transition: 2s;
+}
+.titulo:hover{
+    color: rgb(32, 31, 32);
+    font-size: 110px;
+    border-radius:  50%;
+    box-shadow: 10px 10px 30px black;
+    transform: scale(0.7,1.1);
+    background-image: radial-gradient(
+        circle,
+        rgba(249, 242, 242, 0.95) 0%,
+        #d6b7a5
+    );
+}
+h2{
+    color: rgb(44, 36, 36);
+    font-family: 'Indie Flower', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 177px;
+    text-align: center;
+}
+h3 {
+    font-family: 'Rubik Dirt', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 87px;
+    text-align: center; 
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.imagen_1{
+    width: 254px;
+    height: 298px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border-radius: 158px;
+    box-shadow: 4px 4px 30px black;
+    transition: 2s;
+}
+.imagen_1:hover{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px black;
+}
+footer ul{
+     bottom:0;
+     height: 75px;
+     width: 100%;
+     background-color: #d6b7a5;
+     display: flex;
+     flex-wrap: wrap;
+     border-radius: 50px;
+     box-shadow: 4px 4px 30px black;
+     font-size: 20px;
+     justify-content: space-around;
+     align-items:center ;
+    
+}
+footer ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px black;
+   
+}
+fieldset{
+    font-size: 25px;
+    height: 500px;
+    width: auto;
+    border-radius: 50px;
+    background-color: #8c8989;
+}
+input{
+    display: inline-blocks;
+    margin:50px;
+}
+legend{
+    font-size: 60px;
+    padding-top: 50px;
+}
+.flex-cardigans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+@media only screen and (max-width: 756px)  {
+    .plantilla{
+        margin: 100px 0 100px 0;
+        
+    }
+    .titulo{
+        text-align: center;
+        font-weight: 200;
+        font-size: 50px;
+    }
+    .titulo:hover{  
+        font-size: 58px;
+    }
+    .imagen_1{
+        width: 120px;
+        height: 120px;
+        margin: 0;
+        transition: 2s;
+        margin: 10px;
+    }
+    .imagen_1:hover{
+        width: 104px;
+        height: 104px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 30px black;
+    }
+    p{
+        font-size: 10px;
+        text-align: center;
+    }
+    h3{
+        font-size: 28px;
+        text-align: center;  
+    }
+    footer ul{
+        height: 55px;
+        font-size: 15px;
+        justify-content: start;
+    }
+    footer ul li{
+       display: inline-block;
+       margin: 5px;
+    }
+    .flex-cardigans{
+        justify-content: center;
+    }
+}    
+.iconn{
+    border-radius: 50%;
+}
