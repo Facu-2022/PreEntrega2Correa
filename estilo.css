@@ -50,6 +50,7 @@ a:visited{
    font-weight: 400;
    font-size: 100px;
    transition: 0.5s;
+   padding-bottom: 50px;
 }
 .titulo:hover{
     color: rgb(32, 31, 32);
@@ -66,7 +67,7 @@ h2{
     text-align: center;
 }
 h3 {
-    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -117,7 +118,7 @@ fieldset{
     height: auto;
     width: auto;
     border-radius: 50px;
-    background-color: #8c8989;
+    background-color: #ccb1d1;
 }
 input{
     display: inline-blocks;
@@ -151,7 +152,7 @@ i:hover{
 span{
       padding: 10px;
 }
-@media only screen and (max-width: 756px)  {
+@media only screen and (max-width: 768px)  {
     .plantilla{
         margin: 100px 0 100px 0;   
     }
@@ -196,7 +197,7 @@ span{
     }
     footer ul li{
        display: inline-block;
-       margin: 5px;
+       margin right: 5px;
        font-size: 15px
     }
     .flex-cardigans{
@@ -208,12 +209,11 @@ span{
         width: auto;
         margin: 10px;
         border-radius: 50px;
-        background-color: #8c8989;
+    }
     }
     legend{
         font-size: 30px;
         padding-top: 50px;
     }
-    
-}    
+} 
 
