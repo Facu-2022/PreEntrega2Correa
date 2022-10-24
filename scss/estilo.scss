@@ -15,17 +15,17 @@ body{
     border-radius: 5%;
     box-shadow: 4px 4px 30px black;
     justify-content: end;
-}
-.navbar-brand{
-    font-size: 30px;
-    font-weight: 500;
-    text-shadow: 2px 2px 10px black;
-}
-.navbar-expand-lg .navbar-collapse {
-    font-size: 23px;
-    justify-content: end;
-    font-weight: 500;
-    text-shadow: 2px 2px 10px black;
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 500;
+        text-shadow: 2px 2px 10px black;
+    }
+        navbar-expand-lg .navbar-collapse {
+           font-size: 23px;
+           justify-content: end;
+           font-weight: 500;
+           text-shadow: 2px 2px 10px black;
+        }
 }
 .plantilla{
     
@@ -44,19 +44,19 @@ a:visited{
     text-decoration: none;
 }
 .titulo{
-   text-align: center;
-   color: rgb(44, 36, 36);
-   font-family: 'Italiana', serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 100px;
-   transition: 0.5s;
-   padding-bottom: 50px;
-}
-.titulo:hover{
-    color: rgb(32, 31, 32);
-    font-size: 110px;
-    text-shadow: 10px 10px 10px black;
+    text-align: center;
+    color: rgb(44, 36, 36);
+    font-family: 'Italiana', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    transition: 0.5s;
+    padding-bottom: 50px;
+    &:hover{
+        color: rgb(32, 31, 32);
+        font-size: 110px;
+        text-shadow: 10px 10px 10px black;
+    }
 }
 h2{
     color: rgb(44, 36, 36);
@@ -88,12 +88,12 @@ p{
     border-radius: 158px;
     box-shadow: 4px 4px 30px black;
     transition: 1.5s;
-}
-.imagen_1:hover{
-    width: 260px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 30px black;
+    &:hover{
+        width: 260px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 30px black;
+    }
 }
 div{
     display: flex;
@@ -108,16 +108,16 @@ footer ul{
      display: flex;
      flex-wrap: wrap;
      border-radius: 50px;
-     box-shadow: 4px 4px 30px black;
+     box-shadow: 4px 4px 30px black;    
      font-size: 20px;
      justify-content: space-around;
      align-items:center ;
-}
-footer ul li{
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 500;
-    text-shadow: 2px 2px 10px black; 
+     li{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        text-shadow: 2px 2px 10px black;
+     }
 }
 fieldset{
     font-size: 25px;
@@ -125,23 +125,23 @@ fieldset{
     width: auto;
     border-radius: 50px;
     background-color: #ccb1d1;
-}
-.contac{
-    margin:50px;
-}
-legend{
-    font-size: 60px;
+    .contac{
+        margin:50px;
+    }
+    legend{
+        font-size: 60px;
+    }
 }
 
 i{ 
-   padding: 30px;
-   transition: 2s;
-   font-size: 70px;  
-}
-i:hover{
-    color: #db26cc;
-    animation: pesaa 5s;
-    animation-iteration-count: infinite;
+    padding: 30px;
+    transition: 2s;
+    font-size: 70px;  
+    &:hover{
+        color: #db26cc;
+        animation: pesaa 5s;
+        animation-iteration-count: infinite;
+    }
 }
 
 @keyframes pesaa {
@@ -160,9 +160,9 @@ span{
         text-align: center;
         font-weight: 200;
         font-size: 50px;
-    }
-    .titulo:hover{  
-        font-size: 58px;
+        &:hover{  
+            font-size: 58px;
+        }
     }
     .imagen_1{
         width: 120px;
@@ -170,12 +170,12 @@ span{
         margin: 0;
         transition: 2s;
         margin: 10px;
-    }
-    .imagen_1:hover{
-        width: 104px;
-        height: 104px;
-        border-radius: 10px;
-        box-shadow: 4px 4px 30px black;
+        &:hover{
+            width: 104px;
+            height: 104px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 30px black;
+        }
     }
     div{
         justify-content: center;
@@ -198,11 +198,11 @@ span{
     footer ul{
         height: 55px;
         justify-content: start;
-    }
-    footer ul li{
-       display: inline-block;
-       margin-right: 5px;
-       font-size: 15px
+        li{
+            display: inline-block;
+            margin-right: 5px;
+            font-size: 15px
+        }
     }
     fieldset{
         font-size: 15px;
@@ -210,10 +210,9 @@ span{
         width: auto;
         margin: 10px;
         border-radius: 50px;
-    }
-    legend{
-        font-size: 30px;
-        padding-top: 50px;
+        legend{
+          font-size: 30px;
+          padding-top: 50px;
+        }
     }
 } 
-
