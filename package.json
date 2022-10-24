@@ -1,0 +1,26 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facu-2022/PreEntrega2Correa.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "enzocorrea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Facu-2022/PreEntrega2Correa/issues"
+  },
+  "homepage": "https://github.com/Facu-2022/PreEntrega2Correa#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -28,6 +28,7 @@ body{
     text-shadow: 2px 2px 10px black;
 }
 .plantilla{
+    
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
@@ -94,6 +95,11 @@ p{
     border-radius: 10px;
     box-shadow: 4px 4px 30px black;
 }
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 footer ul{
      bottom:0;
      height: 75px;
@@ -120,19 +126,13 @@ fieldset{
     border-radius: 50px;
     background-color: #ccb1d1;
 }
-input{
-    display: inline-blocks;
+.contac{
     margin:50px;
 }
 legend{
     font-size: 60px;
-    padding-top: 50px;
 }
-.flex-cardigans{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+
 i{ 
    padding: 30px;
    transition: 2s;
@@ -175,7 +175,11 @@ span{
         width: 104px;
         height: 104px;
         border-radius: 10px;
-        box-shadow: 4px 4px 30px black;}
+        box-shadow: 4px 4px 30px black;
+    }
+    div{
+        justify-content: center;
+    }
     p{
         font-size: 10px;
         text-align: center;
@@ -197,11 +201,8 @@ span{
     }
     footer ul li{
        display: inline-block;
-       margin right: 5px;
+       margin-right: 5px;
        font-size: 15px
-    }
-    .flex-cardigans{
-        justify-content: center;
     }
     fieldset{
         font-size: 15px;
@@ -209,7 +210,6 @@ span{
         width: auto;
         margin: 10px;
         border-radius: 50px;
-    }
     }
     legend{
         font-size: 30px;
