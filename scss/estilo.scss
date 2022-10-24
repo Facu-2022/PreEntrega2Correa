@@ -74,31 +74,42 @@ h3 {
     font-size: 40px;
     line-height: 87px;
     text-align: center; 
+    i{ 
+        padding: 30px;
+        transition: 2s;
+        font-size: 70px;  
+        &:hover{
+            color: #db26cc;
+            animation: pesaa 5s;
+            animation-iteration-count: infinite;
+        }
+    }
 }
 p{
     font-size: 20px;
     text-align: center;
 }
-.imagen_1{
-    width: 254px;
-    height: 298px;
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-    border-radius: 158px;
-    box-shadow: 4px 4px 30px black;
-    transition: 1.5s;
-    &:hover{
-        width: 260px;
-        height: 300px;
-        border-radius: 10px;
-        box-shadow: 4px 4px 30px black;
-    }
-}
 div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    .imagen_1{
+        width: 254px;
+        height: 298px;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        border-radius: 158px;
+        box-shadow: 4px 4px 30px black;
+        transition: 1.5s;
+        &:hover{
+            width: 260px;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 30px black;
+        }
+    }
+    
 }
 footer ul{
      bottom:0;
@@ -133,17 +144,6 @@ fieldset{
     }
 }
 
-i{ 
-    padding: 30px;
-    transition: 2s;
-    font-size: 70px;  
-    &:hover{
-        color: #db26cc;
-        animation: pesaa 5s;
-        animation-iteration-count: infinite;
-    }
-}
-
 @keyframes pesaa {
     20%{
         transform: rotate(360deg);
@@ -164,36 +164,38 @@ span{
             font-size: 58px;
         }
     }
-    .imagen_1{
-        width: 120px;
-        height: 120px;
-        margin: 0;
-        transition: 2s;
-        margin: 10px;
-        &:hover{
-            width: 104px;
-            height: 104px;
-            border-radius: 10px;
-            box-shadow: 4px 4px 30px black;
-        }
-    }
     div{
         justify-content: center;
+        .imagen_1{
+            width: 120px;
+            height: 120px;
+            margin: 0;
+            transition: 2s;
+            margin: 10px;
+            &:hover{
+                width: 104px;
+                height: 104px;
+                border-radius: 10px;
+                box-shadow: 4px 4px 30px black;
+            }
+        }
     }
-    p{
-        font-size: 10px;
-        text-align: center;
-    }
-    h2{
-        font-size: 50px;
-    }
-    i{
-        padding: 5px;
-        font-size: 50px;
-    }
-    h3{
-        font-size: 28px;
-        text-align: center;  
+    section{
+        p{
+            font-size: 10px;
+            text-align: center;
+        }
+        h2{
+            font-size: 50px;
+        }
+        i{
+            padding: 5px;
+            font-size: 50px;
+        }
+        h3{
+            font-size: 28px;
+            text-align: center;  
+        }
     }
     footer ul{
         height: 55px;
