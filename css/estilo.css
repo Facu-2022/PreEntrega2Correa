@@ -32,12 +32,12 @@ a:link {
   text-decoration: none; }
 
 a:visited {
-  color: #323232;
+  color: #070606;
   text-decoration: none; }
 
 .titulo {
   text-align: center;
-  color: #2c2424;
+  color: #070606;
   font-family: 'Italiana', serif;
   font-style: normal;
   font-weight: 400;
@@ -45,12 +45,12 @@ a:visited {
   transition: 0.5s;
   padding-bottom: 50px; }
   .titulo:hover {
-    color: #201f20;
+    color: #070606;
     font-size: 110px;
     text-shadow: 10px 10px 10px black; }
 
 h2 {
-  color: #2c2424;
+  color: #070606;
   font-family: 'Indie Flower', cursive;
   font-style: normal;
   font-weight: 400;
