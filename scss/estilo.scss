@@ -20,7 +20,7 @@ body{
         font-weight: 500;
         text-shadow: 2px 2px 10px black;
     }
-        navbar-expand-lg .navbar-collapse {
+        .navbar-collapse {
            font-size: 23px;
            justify-content: end;
            font-weight: 500;
@@ -66,14 +66,6 @@ h2{
     font-size: 70px;
     line-height: 177px;
     text-align: center;
-}
-h3 {
-    font-family: 'Quicksand', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 87px;
-    text-align: center; 
     i{ 
         padding: 30px;
         transition: 2s;
@@ -82,8 +74,17 @@ h3 {
             color: #db26cc;
             animation: pesaa 5s;
             animation-iteration-count: infinite;
-        }
+        
     }
+}
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 87px;
+    text-align: center; 
 }
 p{
     font-size: 20px;

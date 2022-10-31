@@ -10,17 +10,15 @@ body {
   border-radius: 5%;
   box-shadow: 4px 4px 30px black;
   justify-content: end; }
-
-.navbar-brand {
-  font-size: 30px;
-  font-weight: 500;
-  text-shadow: 2px 2px 10px black; }
-
-.navbar-expand-lg .navbar-collapse {
-  font-size: 23px;
-  justify-content: end;
-  font-weight: 500;
-  text-shadow: 2px 2px 10px black; }
+  .navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px black; }
+  .navbar .navbar-collapse {
+    font-size: 23px;
+    justify-content: end;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px black; }
 
 .plantilla {
   display: grid;
@@ -46,11 +44,10 @@ a:visited {
   font-size: 100px;
   transition: 0.5s;
   padding-bottom: 50px; }
-
-.titulo:hover {
-  color: #201f20;
-  font-size: 110px;
-  text-shadow: 10px 10px 10px black; }
+  .titulo:hover {
+    color: #201f20;
+    font-size: 110px;
+    text-shadow: 10px 10px 10px black; }
 
 h2 {
   color: #2c2424;
@@ -60,6 +57,14 @@ h2 {
   font-size: 70px;
   line-height: 177px;
   text-align: center; }
+  h2 i {
+    padding: 30px;
+    transition: 2s;
+    font-size: 70px; }
+    h2 i:hover {
+      color: #db26cc;
+      animation: pesaa 5s;
+      animation-iteration-count: infinite; }
 
 h3 {
   font-family: 'Quicksand', sans-serif;
@@ -73,26 +78,24 @@ p {
   font-size: 20px;
   text-align: center; }
 
-.imagen_1 {
-  width: 254px;
-  height: 298px;
-  display: inline-block;
-  text-align: center;
-  margin: 10px;
-  border-radius: 158px;
-  box-shadow: 4px 4px 30px black;
-  transition: 1.5s; }
-
-.imagen_1:hover {
-  width: 260px;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 4px 4px 30px black; }
-
 div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
+  div .imagen_1 {
+    width: 254px;
+    height: 298px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border-radius: 158px;
+    box-shadow: 4px 4px 30px black;
+    transition: 1.5s; }
+    div .imagen_1:hover {
+      width: 260px;
+      height: 300px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 30px black; }
 
 footer ul {
   bottom: 0;
@@ -106,12 +109,11 @@ footer ul {
   font-size: 20px;
   justify-content: space-around;
   align-items: center; }
-
-footer ul li {
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 500;
-  text-shadow: 2px 2px 10px black; }
+  footer ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px black; }
 
 fieldset {
   font-size: 25px;
@@ -119,22 +121,10 @@ fieldset {
   width: auto;
   border-radius: 50px;
   background-color: #ccb1d1; }
-
-.contac {
-  margin: 50px; }
-
-legend {
-  font-size: 60px; }
-
-i {
-  padding: 30px;
-  transition: 2s;
-  font-size: 70px; }
-
-i:hover {
-  color: #db26cc;
-  animation: pesaa 5s;
-  animation-iteration-count: infinite; }
+  fieldset .contac {
+    margin: 50px; }
+  fieldset legend {
+    font-size: 60px; }
 
 @keyframes pesaa {
   20% {
@@ -150,45 +140,45 @@ span {
     text-align: center;
     font-weight: 200;
     font-size: 50px; }
-  .titulo:hover {
-    font-size: 58px; }
-  .imagen_1 {
-    width: 120px;
-    height: 120px;
-    margin: 0;
-    transition: 2s;
-    margin: 10px; }
-  .imagen_1:hover {
-    width: 104px;
-    height: 104px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 30px black; }
+    .titulo:hover {
+      font-size: 58px; }
   div {
     justify-content: center; }
-  p {
+    div .imagen_1 {
+      width: 120px;
+      height: 120px;
+      margin: 0;
+      transition: 2s;
+      margin: 10px; }
+      div .imagen_1:hover {
+        width: 104px;
+        height: 104px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 30px black; }
+  section p {
     font-size: 10px;
     text-align: center; }
-  h2 {
+  section h2 {
     font-size: 50px; }
-  i {
+  section i {
     padding: 5px;
     font-size: 50px; }
-  h3 {
+  section h3 {
     font-size: 28px;
     text-align: center; }
   footer ul {
     height: 55px;
     justify-content: start; }
-  footer ul li {
-    display: inline-block;
-    margin-right: 5px;
-    font-size: 15px; }
+    footer ul li {
+      display: inline-block;
+      margin-right: 5px;
+      font-size: 15px; }
   fieldset {
     font-size: 15px;
     height: auto;
     width: auto;
     margin: 10px;
     border-radius: 50px; }
-  legend {
-    font-size: 30px;
-    padding-top: 50px; } }
+    fieldset legend {
+      font-size: 30px;
+      padding-top: 50px; } }
