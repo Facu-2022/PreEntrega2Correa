@@ -1,6 +1,8 @@
 $color-1-negro: black;
 $color-2-marron: #d6b7a5;
 $color-2-base: #070606 ;
+$ancho: 768px;
+$vista:mobile;
 
 
 
@@ -159,7 +161,9 @@ fieldset{
 span{
       padding: 10px;
 }
-@media only screen and (max-width: 768px)  {
+
+@if $vista == mobile {
+@media only screen and (max-width: $ancho)  {
     .plantilla{
         margin: 100px 0 100px 0;   
     }
@@ -225,3 +229,4 @@ span{
         }
     }
 } 
+}
