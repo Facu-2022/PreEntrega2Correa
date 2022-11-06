@@ -1,0 +1,17 @@
+.navbar{
+    background-color: $color-2-marron;
+    border-radius: 5%;
+    box-shadow: 4px 4px 30px $color-1-negro;
+    justify-content: end;
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 500;
+        text-shadow: 2px 2px 10px $color-1-negro;
+    }
+        .navbar-collapse {
+           font-size: 23px;
+           justify-content: end;
+           font-weight: 500;
+           text-shadow: 2px 2px 10px $color-1-negro;
+        }
+}

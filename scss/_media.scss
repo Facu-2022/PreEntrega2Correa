@@ -1,0 +1,66 @@
+@media only screen and (max-width: $ancho)  {
+    .plantilla{
+        margin: 100px 0 100px 0;   
+    }
+    .titulo{
+        text-align: center;
+        font-weight: 200;
+        font-size: 50px;
+        &:hover{  
+            font-size: 58px;
+        }
+    }
+    div{
+        justify-content: center;
+        .imagen_1{
+            width: 120px;
+            height: 120px;
+            margin: 0;
+            transition: 2s;
+            margin: 10px;
+            &:hover{
+                width: 104px;
+                height: 104px;
+                border-radius: 10px;
+                box-shadow: 4px 4px 30px $color-1-negro;
+            }
+        }
+    }
+    section{
+        p{
+            font-size: 10px;
+            text-align: center;
+        }
+        h2{
+            font-size: 50px;
+        }
+        i{
+            padding: 5px;
+            font-size: 50px;
+        }
+        h3{
+            font-size: 28px;
+            text-align: center;  
+        }
+    }
+    footer ul{
+        height: 55px;
+        justify-content: start;
+        li{
+            display: inline-block;
+            margin-right: 5px;
+            font-size: 15px
+        }
+    }
+    fieldset{
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        margin: 10px;
+        border-radius: 50px;
+        legend{
+          font-size: 30px;
+          padding-top: 50px;
+        }
+    }
+}
