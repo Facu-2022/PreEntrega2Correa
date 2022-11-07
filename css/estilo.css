@@ -207,7 +207,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: linear-gradient(360deg, rgba(249, 242, 242, 0.95) 0%, #d6b7a5);
+  background-image: linear-gradient(360deg, rgba(252, 252, 252, 0.95) 0%, #d6b7a5);
   background-attachment: fixed;
 }
 
