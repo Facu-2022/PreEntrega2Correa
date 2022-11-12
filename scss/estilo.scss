@@ -1,30 +1,9 @@
-$color-1-negro: black;
-$color-2-marron: #d6b7a5;
-$color-2-base: #070606 ;
-$ancho: 768px;
+@import "fuentes";
+@import "colores";
+@import "body";
+@import "ancho";
 @import "header", "footer","main","media";
 
 
-
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-     background-image: linear-gradient(
-        360deg,
-        rgba(252, 252, 252, 0.95) 0%,
-        $color-2-marron
-    );
-    background-attachment: fixed;
-    
-}
-a:link{
-    color: $color-2-base;
-    text-decoration: none;
-}
-a:visited{
-    color: $color-2-base;
-    text-decoration: none;
-}
 
 

@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: linear-gradient(360deg, rgba(252, 252, 252, 0.95) 0%, #d6b7a5);
+  background-attachment: fixed;
+}
+
 .navbar {
   background-color: #d6b7a5;
   border-radius: 5%;
@@ -29,11 +40,27 @@ footer ul {
   justify-content: space-around;
   align-items: center;
 }
+footer ul a:link {
+  text-decoration: none;
+  color: black;
+}
+footer ul a:visited {
+  text-decoration: none;
+  color: black;
+}
 footer ul li {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
   text-shadow: 2px 2px 10px black;
+}
+footer ul li a:link {
+  text-decoration: none;
+  color: black;
+}
+footer ul li a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 .plantilla {
@@ -82,11 +109,12 @@ h2 i:hover {
 
 h3 {
   font-family: "Quicksand", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 1000;
+  font-style: italic;
   font-size: 40px;
   line-height: 87px;
   text-align: center;
+  margin: 60px;
 }
 
 p {
@@ -151,24 +179,8 @@ span {
   .titulo:hover {
     font-size: 58px;
   }
-  div {
-    justify-content: center;
-  }
-  div .imagen_1 {
-    width: 120px;
-    height: 120px;
-    margin: 0;
-    transition: 2s;
-    margin: 10px;
-  }
-  div .imagen_1:hover {
-    width: 104px;
-    height: 104px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 30px black;
-  }
   section p {
-    font-size: 10px;
+    font-size: 17px;
     text-align: center;
   }
   section h2 {
@@ -202,23 +214,6 @@ span {
     font-size: 30px;
     padding-top: 50px;
   }
-}
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  background-image: linear-gradient(360deg, rgba(252, 252, 252, 0.95) 0%, #d6b7a5);
-  background-attachment: fixed;
-}
-
-a:link {
-  color: #070606;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #070606;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=estilo.css.map */

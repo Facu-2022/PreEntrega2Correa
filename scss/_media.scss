@@ -10,25 +10,10 @@
             font-size: 58px;
         }
     }
-    div{
-        justify-content: center;
-        .imagen_1{
-            width: 120px;
-            height: 120px;
-            margin: 0;
-            transition: 2s;
-            margin: 10px;
-            &:hover{
-                width: 104px;
-                height: 104px;
-                border-radius: 10px;
-                box-shadow: 4px 4px 30px $color-1-negro;
-            }
-        }
-    }
+
     section{
         p{
-            font-size: 10px;
+            font-size: 17px;
             text-align: center;
         }
         h2{
@@ -41,6 +26,7 @@
         h3{
             font-size: 28px;
             text-align: center;  
+        
         }
     }
     footer ul{
