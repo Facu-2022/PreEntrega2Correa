@@ -31,16 +31,16 @@ h2{
     text-align: center;
     i{ 
         padding: 30px;
-        transition: 2s;
         font-size: 70px;  
-        &:hover{
-            color: $color-1-icono;
-            animation: pesaa 5s;
-            animation-iteration-count: infinite;
+        color: $color-1-icono;
+        animation: pesaa 5s;
+        animation-iteration-count: infinite;
+        text-shadow: 3px 3px 10px  black;
+     
         
     }
 }
-}
+
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 1000;
